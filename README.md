@@ -4,5 +4,6 @@ This repository contains a list of **small tests** regarding enhancements brough
 
 Here is the list of the concepts that I have tested :
 - [**Copy ellision**](copy-ellision.cpp)
+- [**Chain evaluation order**](chain-evaluation-order.cpp)
 
 
