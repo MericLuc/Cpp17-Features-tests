@@ -28,7 +28,7 @@ public:
     {
         /*!
          * Is evaluated at compile-time and
-         * can saves alot of CPU.
+         * can save alot of CPU.
          */
         if constexpr ( std::is_same_v<AType, std::vector<AnotherType> >) 
         {
