@@ -10,3 +10,4 @@ Here is the list of the concepts that I have tested :
 - [**Remove an element in a std::vector in O(1) Timme**](fast-remove-in-vectors.cpp)
 - [**Limit variables scope to if/else/switch statements**](init-in-selection.cpp)
 - [**constexpr if : Compile-time evaluations**](constexpr-if.cpp)
+- [**STL algorithms policies**](stl-algorithms-policies.cpp)
