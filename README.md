@@ -13,3 +13,6 @@ Here is the list of the concepts that I have tested :
 - [**STL algorithms policies**](stl-algorithms-policies.cpp)
 - [**std::optional**](std-optional/)
   - [_Creation_](std-optional/optional-creation.cpp)
+  - [_Accessing the stored value_](std-optional/optional-accessing.cpp)
+  - [_Safely signalizing failure_](std-optional/optional-safe-failure.cpp)
+  - [_Example(s) of use_](std-optional/optional-examples.cpp)
