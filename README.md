@@ -11,3 +11,5 @@ Here is the list of the concepts that I have tested :
 - [**Limit variables scope to if/else/switch statements**](init-in-selection.cpp)
 - [**constexpr if : Compile-time evaluations**](constexpr-if.cpp)
 - [**STL algorithms policies**](stl-algorithms-policies.cpp)
+- [**std::optional**](std-optional/)
+  - [_Creation_](std-optional/optional-creation.cpp)
