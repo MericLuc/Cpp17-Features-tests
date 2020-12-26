@@ -16,3 +16,9 @@ Here is the list of the concepts that I have tested :
   - [_Accessing the stored value_](std-optional/optional-accessing.cpp)
   - [_Safely signalizing failure_](std-optional/optional-safe-failure.cpp)
   - [_Example(s) of use_](std-optional/optional-examples.cpp)
+- [**std::variant**](std-variant/)
+  - [_Creation_](std-variant/variant-creation.cpp)
+  - [_Helper functions_](std-variant/variant-helpers.cpp)
+  - [_Example(s) of use_](std-variant/variant-examples.cpp)
+- [**std::any**]
+  - Coming soon !
