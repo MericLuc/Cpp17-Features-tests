@@ -22,5 +22,6 @@ Here is the list of the concepts that I have tested :
   - [_Creation_](std-variant/variant-creation.cpp)
   - [_Helper functions_](std-variant/variant-helpers.cpp)
   - [_Example(s) of use_](std-variant/variant-examples.cpp)
-- [**std::any**]
-  - Coming soon !
+- [**std::any**](std-any/)
+  - [_Creation and basics_](std-any/any-create-and-basics.cpp)
+  - [_Example(s) of use_](std-any/any-example.cpp)
