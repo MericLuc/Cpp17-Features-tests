@@ -24,4 +24,4 @@ Here is the list of the concepts that I have tested :
   - [_Example(s) of use_](std-variant/variant-examples.cpp)
 - [**std::any**](std-any/)
   - [_Creation and basics_](std-any/any-create-and-basics.cpp)
-  - [_Example(s) of use_](std-any/any-example.cpp)
+  - [_Example(s) of use_](std-any/any-examples.cpp)
