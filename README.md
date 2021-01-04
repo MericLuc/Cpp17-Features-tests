@@ -25,4 +25,5 @@ Here is the list of the concepts that I have tested :
 - [**std::any**](std-any/)
   - [_Creation and basics_](std-any/any-create-and-basics.cpp)
   - [_Example(s) of use_](std-any/any-examples.cpp)
+- [**std::regex**](std-regex/)
 - [**Benchmark to highlight std::from_chars and std::to_chars efficiency**](string_conversion.cpp)
