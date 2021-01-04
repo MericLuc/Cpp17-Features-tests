@@ -27,3 +27,4 @@ Here is the list of the concepts that I have tested :
   - [_Example(s) of use_](std-any/any-examples.cpp)
 - [**std::regex**](std-regex/)
 - [**Benchmark to highlight std::from_chars and std::to_chars efficiency**](string_conversion.cpp)
+- [**Benchmark C++17 std::search overloads**](std-search/)
