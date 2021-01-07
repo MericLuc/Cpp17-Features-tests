@@ -27,5 +27,8 @@ Here is the list of the concepts that I have tested :
   - [_Example(s) of use_](std-any/any-examples.cpp)
 - [**std::regex**](std-regex/)
 - [**std::byte**](std-byte.cpp)
+- [**std::map enhancements**](std-map-features/)
+  - [_std::map::try_emplace_](std-map-features/try_emplace.cpp)
+  - std::map::insert_or_assign : Coming soon !
 - [**Benchmark to highlight std::from_chars and std::to_chars efficiency**](string_conversion.cpp)
 - [**Benchmark C++17 std::search overloads**](std-search/)
