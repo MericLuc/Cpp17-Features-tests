@@ -4,6 +4,8 @@ This repository contains a list of **small tests** regarding enhancements brough
 
 Note : Well, some of them do not really have to do with C++17 but seemed nice to incorporate here.
 
+## Concepts
+
 Here is the list of the concepts that I have tested :
 - [**Copy ellision**](copy-ellision.cpp)
 - [**Chain evaluation order**](chain-evaluation-order.cpp)
@@ -30,5 +32,10 @@ Here is the list of the concepts that I have tested :
 - [**std::map enhancements**](std-map-features/)
   - [_std::map::try_emplace_](std-map-features/try_emplace.cpp)
   - [_std::map::insert_or_assign_](std-map-features/insert-or-assign.cpp)
+- [**std::emplace() : the new receipe**](std-emplace.cpp)
+
+## Benchmarks
+
+Here is a list of benchmark that show the improvments of C++17 with numbers :
 - [**Benchmark to highlight std::from_chars and std::to_chars efficiency**](string_conversion.cpp)
 - [**Benchmark C++17 std::search overloads**](std-search/)
