@@ -33,6 +33,7 @@ Here is the list of the concepts that I have tested :
   - [_std::map::try_emplace_](std-map-features/try_emplace.cpp)
   - [_std::map::insert_or_assign_](std-map-features/insert-or-assign.cpp)
 - [**std::emplace() : the new receipe**](std-emplace.cpp)
+- [**std::sample() algorithm**](std-sample.cpp)
 
 ## Benchmarks
 
