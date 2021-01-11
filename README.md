@@ -37,6 +37,7 @@ Here is the list of the concepts that I have tested :
 - [**Mathematical additions**](math/)
   - [_std::gcd_ : Finally !](math/gcd.cpp)
   - [_std::lcm_](math/lcm.cpp)
+  - [ std::clamp_](math/clamp.cpp)
 
 ## Benchmarks
 
