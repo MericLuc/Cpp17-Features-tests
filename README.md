@@ -34,6 +34,9 @@ Here is the list of the concepts that I have tested :
   - [_std::map::insert_or_assign_](std-map-features/insert-or-assign.cpp)
 - [**std::emplace() : the new receipe**](std-emplace.cpp)
 - [**std::sample() algorithm**](std-sample.cpp)
+- [**Mathematical additions**](math/)
+  - [_std::gcd_ : Finally !](math/gcd.cpp)
+  - [_std::lcm_](math/lcm.cpp)
 
 ## Benchmarks
 
