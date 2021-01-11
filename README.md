@@ -32,6 +32,7 @@ Here is the list of the concepts that I have tested :
 - [**std::map enhancements**](std-map-features/)
   - [_std::map::try_emplace_](std-map-features/try_emplace.cpp)
   - [_std::map::insert_or_assign_](std-map-features/insert-or-assign.cpp)
+- [**std::empty, std::size(), std::data()**](non-member-container-functions.cpp)
 - [**std::emplace() : the new receipe**](std-emplace.cpp)
 - [**std::sample() algorithm**](std-sample.cpp)
 - [**Mathematical additions**](math/)
