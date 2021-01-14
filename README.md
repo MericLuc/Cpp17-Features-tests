@@ -39,6 +39,7 @@ Here is the list of the concepts that I have tested :
   - [_std::gcd_ : Finally !](math/gcd.cpp)
   - [_std::lcm_](math/lcm.cpp)
   - [ std::clamp_](math/clamp.cpp)
+- [**Implementing algorithms as std compliant iterators**](std-compliant-fibonacci.cpp)
 
 ## Benchmarks
 
