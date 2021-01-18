@@ -40,6 +40,7 @@ Here is the list of the concepts that I have tested :
   - [_std::lcm_](math/lcm.cpp)
   - [ std::clamp_](math/clamp.cpp)
 - [**Implementing algorithms as std compliant iterators**](std-compliant-fibonacci.cpp)
+- [**Memory handling of legacy APIs using smart pointers**](memory_handle_legacy_api.cpp)
 
 ## Benchmarks
 
