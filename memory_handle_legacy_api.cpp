@@ -97,3 +97,17 @@ int main()
 
     return EXIT_SUCCESS;
 }
+
+/*
+----- Basic usage with raw pointers -----
+APIClass("RAW POINTER")
+APIClass object doing its job...Done!
+~APIClass("RAW POINTER")
+----- Improved usage with smart pointers -----
+APIClass("UNIQUE POINTER")
+APIClass object doing its job...Done!
+APIClass("SHARED POINTER")
+APIClass object doing its job...Done!
+~APIClass("SHARED POINTER")
+~APIClass("UNIQUE POINTER")
+*/
