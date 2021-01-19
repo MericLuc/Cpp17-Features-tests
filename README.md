@@ -41,6 +41,7 @@ Here is the list of the concepts that I have tested :
   - [ std::clamp_](math/clamp.cpp)
 - [**Implementing algorithms as std compliant iterators**](std-compliant-fibonacci.cpp)
 - [**Memory handling of legacy APIs using smart pointers**](memory_handle_legacy_api.cpp)
+- [**Redirect to file (or ignore) specific outputs**](redirect-or-ignore-cout.cpp)
 
 ## Benchmarks
 
