@@ -33,6 +33,11 @@ class User {
         uint32_t    getAge (void) const { return m_age;  }
         uint32_t    getSize(void) const { return m_size; }
 
+        // Used for write access (auto& [a,b,c] = myUser )
+        std::string& getRName(void) { return m_name; }
+        uint32_t&    getRAge (void) { return m_age;  }
+        uint32_t&    getRSize(void) { return m_size; }
+
     private:
         std::string m_name;
         uint32_t    m_age ;
@@ -45,6 +50,14 @@ auto get( const User& p_user ) {
     if      constexpr ( I == 0 ) return p_user.getName();
     else if constexpr ( I == 1 ) return p_user.getAge ();
     else if constexpr ( I == 2 ) return p_user.getSize();
+}
+
+// Same but allows for write access
+template < size_t I >
+auto& get( User& p_user ) {
+    if      constexpr ( I == 0 ) return p_user.getRName();
+    else if constexpr ( I == 1 ) return p_user.getRAge ();
+    else if constexpr ( I == 2 ) return p_user.getRSize();
 }
 
 namespace std {
@@ -61,7 +74,7 @@ int main()
 {
     User bob("Bob", 32, 180);
 
-    auto [name, age, height] = bob;
+    auto& [name, age, height] = bob;
 
     std::cout << name << ", " << age << " years old, " << height << "cm.\n";
 
